@@ -1,3 +1,17 @@
+在Ubuntu 24.04.2 LTS
+
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.9
+sudo apt install python3.9-distutils
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.9
+python3.9 -m pip install --upgrade setuptools
+python3.9 -m pip install .
+which nxbt
+sudo -E /home/picharsiu/.local/bin/nxbt webapp
+```
+
+
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/Brikwerk/nxbt/master/docs/img/nxbt-logo.png" alt="NXBT" width="200">
